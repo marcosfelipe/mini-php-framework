@@ -1,0 +1,393 @@
+html,body{
+	margin:0;
+	background-color: white;/*#456*/
+
+}
+/*DIV GERAL DO SITE*/
+#tudo{
+	top: 0;
+	width: 100%;
+}
+/*DIV TOPO  - SERÁ INCLUIDO O MENU NELE*/
+#topo{
+	top:0;
+	position: fixed;
+	width:100%;
+	height:50px;
+	background-color:#191970;
+}
+	/*DIV TOPO 1 - SERÁ INCLUIDO O LOGO NELE*/
+	#topo1{
+		margin:50px 0 0 0;
+		width:100%;
+		height:200px;
+		background-color:white;
+		border-bottom: 1px solid #c2c2c2;
+	}
+	/*DIV TOPO 2 - SERÁ INCLUIDO O LOGO NELE*/
+	#topo2{
+		margin:0px 0 0 0;
+		width:100%;
+		background-color: #c2c2c2;
+		height: 50px;
+		border-bottom: 1px solid #c2c2c2;
+	}
+	/*DIV PARA O LOGO*/
+	#logo{
+		margin-left:90px;
+		padding-top: 10px;
+	}
+/*DIV RESPONSAVEL PELO MEIO DO SITE*/
+#meio{
+	width: 95%;
+	margin: 10px 20px;
+	font-family: sans-serif, Geneva, Verdana;
+}
+	/*DIV RESPONSAVEL PELO MENU A ESQUERDA*/
+	#menu_esq{
+		width: 210px;
+		background-color: white;
+		border: 1px solid #c2c2c2;
+		font-family: "Lucida Console";
+		float: left;
+	}
+	/*DIV RESPONSAVEL PELO CONTEUDO DO SITE*/
+	#conteudo{
+		float: right;
+		width: 75%;
+		padding: 10px;
+		background-color: white;
+		border: 1px solid #c2c2c2;
+		font-family: sans-serif, Geneva, Verdana;
+
+	}
+h1{
+	margin: 0px 130px;
+	font-size: 30px;
+	padding-top: 7px;
+	font-weight: bold;
+	text-align: left;
+	color: #003366;
+	text-transform: uppercase;
+	font-family: sans-serif, Geneva, Verdana;
+}
+/*DIV RESPONSAVEL PELO RODAPE*/
+footer{
+	margin-top: 10px;
+	float: left;
+	width:100%;
+	height:278px;
+	background: #e2eff7;
+	font-size: 18px;
+    padding-top: 0	px;
+    font-weight: bold;
+  	color: #0365a2;
+
+}
+	footer h2 {
+	  color: #0365a2;
+	  font-size: 33px;
+	  font-weight: bold;
+	  margin-top: 15px;
+	}
+	footer h3 {
+	  font-size: 17px;
+	  vertical-align: top;
+	  line-height: 1;
+	  font-weight: normal;
+	} 
+	footer h6 {
+	  font-size: 13px;
+	  margin: 30px 0 7px;
+	  color: #0365a2;
+	  text-align: left;
+	  padding-left: 0;
+	}
+	footer .hr{
+		width: 40px;
+	 	height: 1px;
+	  	background: #03a9fb;
+	 	margin-bottom: 10px;
+	}
+
+	footer .col1, .col2, .col3, .col4 {
+		margin: 0 40px;
+		float: left;
+		width: 150px;
+	}
+
+	footer .col1 ul, .col2 ul, .col3 ul, .col4 ul{
+		padding-left: 0;
+		list-style: none;	
+	}
+	footer .col1 ul li a, .col2 ul li a, .col3 ul li a, .col4 ul li a{
+		font-size: 13px;
+		text-align: left;
+		text-decoration: none;
+		font-family:Verdana, Geneva, sans-serif; 
+		color: #87a1af
+
+	}
+	footer .col1 ul li a:hover, .col2 ul li a:hover, .col3 ul li a:hover, .col4 ul li a:hover{
+		text-decoration: none;
+		color: #03a9fb;
+	}
+
+#conteudo h2{
+    font-size: 18px;
+    padding: 5px;
+    color: #4C4C4C
+}
+	#conteudo p{
+	    line-height: 20px;
+	    text-align: justify;
+	}
+	#conteudo ul li {
+		margin: 10px;
+		line-height: 20px;
+	    text-align: justify;
+	}
+
+
+/******************************************************/
+#menuesq ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}   
+
+	#menuesq ul li a {
+	    padding-top: 5px;
+	    padding-left: 5px;
+	    padding-right: -15px;
+	    display: inline-block;
+		width:200px;
+		height: 30px;
+	    /* visual do link */
+	    font-family:Verdana, Geneva, sans-serif; 
+		font-size:15px;
+	    background-color:#EDEDED;
+	    color: #333;
+	    text-decoration: none;
+	    border-bottom:3px solid #EDEDED;
+	}
+	#menuesq ul li a:hover {
+	    background-color:#D6D6D6;
+	    color: #6D6D6D;
+	    border-left:3px solid blue;
+   		width:202px;
+	}
+/*
+***************** MENU ****************************
+*/
+.menu{background:#191970; }
+
+	ul.menu, .menu li, .menu a{ 
+		margin:0 20px; 
+		padding:0; 
+		list-style:none; 
+		text-decoration:none;
+		float:left; 
+		font-family:Verdana, Geneva, sans-serif; 
+		font-size:15px; 
+		border-radius:5px; 
+		padding:0 5px;
+		width:auto; 
+		color:#ccc;
+	}
+	.menu li a{ 
+		display:block; 
+		padding:0 20px; 
+		line-height:45px; 
+		height:45px; 
+		float:left; 
+		transition:all 0.1s linear; }
+
+	.menu li a:hover { background:#999;  color:#fff;}
+
+#contudo {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+	#conteudo p {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	}
+
+	#conteudo h5{
+	  background: #757575;
+	  height: 40px;
+	  padding-top: 08px;
+	  font-size: 1.4em;
+	  font-weight: normal;
+	  text-align: center;
+	  text-transform: uppercase;
+	  color: white;
+	  margin-bottom: 0;
+	}
+
+	.form-container {
+	  background: #ebebeb;
+	  padding: 12px;
+	}
+
+	/* Every row inside .contato-container is defined with p tags */
+	#conteudo p {
+	  padding: 12px;
+	}
+
+	input, textarea, select {
+	  box-sizing: border-box;
+	  display: block;
+	  width: 100%;
+	  border-width: 1px;
+	  border-style: solid;
+	  padding: 16px;
+	  outline: 0;
+	  font-family: inherit;
+	  font-size: 0.95em;
+	  border-color: #bbb;
+	}
+
+	input[type="email"],
+	input[type="password"], select {
+	  background: #fff;
+	  border-color: #bbb;
+	  color: #555;
+	}
+
+	/* Text fields' focus effect */
+	input[type="email"]:focus,
+	input[type="password"]:focus {
+	  border-color: #888;
+	}
+
+	input[type="submit"] {
+	  background: #28d;
+	  border-color: transparent;
+	  color: #fff;
+	  cursor: pointer;
+	}
+
+	input[type="submit"]:hover {
+	  background: #17c;
+	}
+
+	/* Buttons' focus effect */
+	input[type="submit"]:focus {
+	  border-color: #05a;
+	}
+
+	table {
+	color: #7F7F7F;
+	font: 0.8em/1.6em "Trebuchet MS",Verdana,sans-serif;
+	border-collapse: collapse
+}
+
+table,caption {
+	margin: 0 auto;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC
+}
+
+caption,th,td {
+	border-left: 0;
+	padding: 10px
+}
+
+caption,thead th,tfoot th,tfoot td {
+	background-color: #E63C1E;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+thead th {
+	background-color: #C30;
+	color: #FFB3A6;
+	text-align: center
+}
+
+tbody th {
+	padding: 20px 10px
+}
+
+tbody tr.odd {
+	background-color: #F7F7F7;
+	color: #666
+}
+
+tbody a {
+	padding: 1px 2px;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #E63C1E
+}
+
+tbody a:active,tbody a:hover,tbody a:focus,tbody a:visited {
+	color: #666
+}
+
+tbody tr:hover {
+	background-color: #EEE;
+	color: #333
+}
+
+tbody tr:hover a {
+	background-color: #FFF
+}
+
+tbody td+td+td+td a {
+	color: #C30;
+	font-weight: bold;
+	border-bottom: 0
+}
+
+tbody td+td+td+td a:active,tbody td+td+td+td a:hover,tbody td+td+td+td a:focus,tbody td+td+td+td a:visited {
+	color: #E63C1E
+}
+
+tbody td a[href="http://www.rodcast.com.br/"] {
+	margin: 0 auto;
+	display: block;
+	width: 15px;
+	height: 15px;
+	background: transparent url('data:image/gif;base64,R0lGODlhDwAPAIAAACEpMf///yH5BAAAAAAALAAAAAAPAA8AAAIjjA8Qer0JmYvULUOlxXEjaEndliUeA56c97TqSD5pfJnhNxYAOw%3D%3D') no-repeat;
+	text-indent: -999em;
+	border-bottom: 0
+}
+
+tbody a:visited:after {
+	font-family: Verdana,sans-serif;
+	content: "\00A0\221A"
+}
+
+.flash{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 3px;
+}
+
+.flash.success{
+	color: #003300;
+	background: #32ca65;
+}
+
+.flash.error{
+	color: #990000;
+	background: #ff6363;
+}
+
+.flash.notice{
+	color: rgb(99, 99, 21);
+	background: rgb(236, 236, 182);
+}
+
+.field-error{
+	color: #cc0000;
+}
