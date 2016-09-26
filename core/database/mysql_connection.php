@@ -21,7 +21,8 @@ class MysqlConnection{
 	}
 
 	public function query($query){
-		return $this->link->query($query);
+		$result = $this->link->query($query);
+		return $result;
 	}
 
 	public function prepare($query){
@@ -37,6 +38,7 @@ class MysqlConnection{
 	}
 
 	public function multi_query($queries){
-		return $this->link->multi_query($queries);
+		$result = $this->link->multi_query($queries);
+		return $result;
 	}
 }

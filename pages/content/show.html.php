@@ -12,7 +12,7 @@
         </nav>
     </div>
     <div id="conteudo">
-        <?php if(isset($content)){ ?>
+        <?php if(!empty($content)){ ?>
             <h3><?= $content->title ?></h3>
             <p><?= $content->body ?></p>
         <?php } ?>
