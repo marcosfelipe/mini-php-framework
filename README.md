@@ -16,31 +16,31 @@ Após ocorrido o `setup.php` a página será redirecionada para `index.php`.
 
 ### Como entrar no painel do Admin?
 
-Acesse `index.php` e no rodapé terá um link chamado ~~Área Restrita~~ (o link leverá até a página de login). Depois do login o usuário será redirecionado para o `PAINEL ADMINISTRATIVO`.
+Acesse `index.php` e no rodapé terá um link chamado _Área Restrita_ (o link leverá até a página de login). Depois do login o usuário será redirecionado para o `PAINEL ADMINISTRATIVO`.
 
 ### Como deslogar da conta?
 
-Acesse `index.php` e no rodapé terá um link chamado ~~Sair~~ ao lado de ~~Área Restrita~~.
+Acesse `index.php` e no rodapé terá um link chamado _Sair_ ao lado de _Área Restrita_.
 
 ou
 
-Acesse o `PAINEL ADMINISTRATIVO` e ao lado equerdo na lista de links terá a opção ~~Sair~~.
+Acesse o `PAINEL ADMINISTRATIVO` e ao lado equerdo na lista de links terá a opção _Sair_.
 
 ### Lista de contatos
 
-1. Acesse ~~Área Restrita~~.
-2. Na lista de links do lado esquerdo clique em ~~Contatos~~.
+1. Acesse _Área Restrita_.
+2. Na lista de links do lado esquerdo clique em _Contatos_.
 
 ### Lista de Categorias
 
-1. Acesse ~~Área Restrita~~.
-2. Na lista de links do lado esquerdo clique em ~~Categorias~~.
+1. Acesse _Área Restrita_.
+2. Na lista de links do lado esquerdo clique em _Categorias_.
 
 Todas as Categorias cadastradas serão listadas no menu do topo do site.
 
 ### Lista de Conteudos
 
-1. Acesse ~~Área Restrita~~.
-2. Na lista de links do lado esquerdo clique em ~~Conteudos~~.
+1. Acesse _Área Restrita_.
+2. Na lista de links do lado esquerdo clique em _Conteudos_.
 
 Todos os Conteudos cadastrados serão listados de acordo com a categoria escolhida clicando na categoria no menu do topo do site.
