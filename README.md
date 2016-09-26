@@ -1,1 +1,46 @@
 # mini-php-framework
+
+## Descrição
+
+Este é um projeto acadêmico da disciplina de Programação Backend II do Curso de Sistemas para Internet na Unicesumar.
+O objeto é implementar um site com área administrativa usando a linguagem PHP.
+
+## Instalação
+
+1. Execute o `git clone` do projeto dentro do servidor web PHP.
+2. Acesse o endereço `http://localhost/setup.php`, onde `localhost` é o DNS do servidor.
+
+Após ocorrido o `setup.php` a página será redirecionada para `index.php`.
+
+## Sobre o site
+
+### Como entrar no painel do Admin?
+
+Acesse `index.php` e no rodapé terá um link chamado ~~Área Restrita~~ (o link leverá até a página de login). Depois do login o usuário será redirecionado para o `PAINEL ADMINISTRATIVO`.
+
+### Como deslogar da conta?
+
+Acesse `index.php` e no rodapé terá um link chamado ~~Sair~~ ao lado de ~~Área Restrita~~.
+
+ou
+
+Acesse o `PAINEL ADMINISTRATIVO` e ao lado equerdo na lista de links terá a opção ~~Sair~~.
+
+### Lista de contatos
+
+1. Acesse ~~Área Restrita~~.
+2. Na lista de links do lado esquerdo clique em ~~Contatos~~.
+
+### Lista de Categorias
+
+1. Acesse ~~Área Restrita~~.
+2. Na lista de links do lado esquerdo clique em ~~Categorias~~.
+
+Todas as Categorias cadastradas serão listadas no menu do topo do site.
+
+### Lista de Conteudos
+
+1. Acesse ~~Área Restrita~~.
+2. Na lista de links do lado esquerdo clique em ~~Conteudos~~.
+
+Todos os Conteudos cadastrados serão listados de acordo com a categoria escolhida clicando na categoria no menu do topo do site.
