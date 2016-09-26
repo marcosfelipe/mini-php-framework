@@ -6,8 +6,7 @@
 		<?= render('flash_messages') ?>
 		<form action="index.php?pagina=sessao&acao=criar" method="post">
 		  <h5 class="contato">Entrar</h2>
-		<div class="contato">
-		  <form class="contato-container">
+		<div class="form-container">
 		    <p>
 		    	<input type="text" placeholder="Login" name="login" value="<?= $auth->login ?>">
 		    	<div class="field-error"><?= $auth->errors_for('login') ?></div>
@@ -19,7 +18,6 @@
 		    	<i>Padrão: '123'</i>
 	    	</p>
 		    <p><input type="submit" value="Entrar"></p>
-		  </form>
 		</div>
     </div>
 </div>
