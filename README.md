@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este é uma atividade acadêmica (MAPA) da disciplina de Programação Backend II do Curso de Sistemas para Internet na Unicesumar.
+Esta é uma atividade acadêmica (MAPA) da disciplina de Programação Backend II do Curso de Sistemas para Internet na Unicesumar.
 O objeto é implementar um site com área administrativa usando a linguagem PHP.
 
 ## Instalação
